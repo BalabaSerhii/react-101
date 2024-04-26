@@ -1,9 +1,7 @@
-import css from './App.module.css';
+import css from "./App.module.css";
+import Profile from "../profile/Profile.jsx";
+import userData from "../data/userData.json";
 
-
-
-export default function App(){
-  return(
-    <div><p className={css.fff}>Привет</p></div>
-  )
+export default function App() {
+  return <Profile  items={userData}/>;
 }
