@@ -4,10 +4,7 @@ export default function Profile({
   return (
     <div>
       <div>
-        <img
-          src={avatar}
-          alt={username}
-        />
+        <img src={avatar} alt='' />
         <p>{username}</p>
         <p>@{tag}</p>
         <p>{location}</p>
@@ -30,3 +27,4 @@ export default function Profile({
     </div>
   );
 }
+
