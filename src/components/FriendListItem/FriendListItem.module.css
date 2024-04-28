@@ -1,0 +1,7 @@
+.isOnline {
+    color: rgb(22, 153, 22);
+}
+
+.isOffline {
+    color: rgb(236, 30, 30);
+}

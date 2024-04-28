@@ -1,0 +1,25 @@
+.list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  list-style: none;
+  margin: 100px;
+ justify-content: center;
+}
+
+.styleFriend {
+  border-radius: 10px;
+  border: solid black 2px;
+  padding: 15px 15px 0 15px;
+  transition: background-color 0.5s, box-shadow 0.5s, transform 0.3s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.styleFriend:hover {
+  background-color: rgb(245, 236, 236);
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
